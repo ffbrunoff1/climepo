@@ -76,7 +76,7 @@ export default function About() {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Sobre a <span className="gradient-text bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">Climepo</span>
+              Sobre a <span className="gradient-text bg-gradient-to-r from-white to-green-200 bg-clip-text text-transparent">Climepo</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
@@ -130,7 +130,7 @@ export default function About() {
               className="relative"
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <div className="aspect-w-4 aspect-h-3 bg-gradient-to-br from-primary-100 to-blue-100 p-12">
+                <div className="aspect-w-4 aspect-h-3 bg-gradient-to-br from-primary-100 to-green-100 p-12">
                   <div className="flex items-center justify-center h-full">
                     <div className="text-center">
                       <Activity className="w-24 h-24 text-primary-600 mx-auto mb-6" />
@@ -145,7 +145,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-50 to-green-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -282,7 +282,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-50 to-green-50">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -350,13 +350,13 @@ export default function About() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <Stethoscope className="w-16 h-16 mx-auto mb-6 text-blue-200" />
+            <Stethoscope className="w-16 h-16 mx-auto mb-6 text-green-200" />
             
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Conheça nossa clínica pessoalmente
             </h2>
             
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
               Venha nos visitar e conheça nossa estrutura, nossa equipe e tudo que 
               preparamos com carinho para cuidar da sua saúde.
             </p>

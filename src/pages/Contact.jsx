@@ -153,10 +153,10 @@ export default function Contact() {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Entre em <span className="gradient-text bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">Contato</span>
+              Entre em <span className="gradient-text bg-gradient-to-r from-white to-green-200 bg-clip-text text-transparent">Contato</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-green-100 max-w-4xl mx-auto leading-relaxed">
               Estamos aqui para cuidar da sua saúde. Entre em contato conosco para 
               agendar sua consulta ou esclarecer suas dúvidas.
             </p>
@@ -437,7 +437,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="card p-8 bg-gradient-to-br from-primary-50 to-blue-50 border border-primary-100">
+              <div className="card p-8 bg-gradient-to-br from-primary-50 to-green-50 border border-primary-100">
                 <div className="flex items-center space-x-3 mb-4">
                   <Activity className="w-6 h-6 text-primary-600" />
                   <h3 className="text-lg font-bold text-primary-800">
@@ -469,13 +469,13 @@ export default function Contact() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <MapPin className="w-16 h-16 mx-auto mb-6 text-blue-200" />
+            <MapPin className="w-16 h-16 mx-auto mb-6 text-green-200" />
             
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Visite Nossa Clínica
             </h2>
             
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
               Nossa clínica está localizada em uma região de fácil acesso em Belém, 
               com estacionamento próprio e ambiente moderno e acolhedor.
             </p>

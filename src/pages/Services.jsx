@@ -138,10 +138,10 @@ export default function Services() {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Nossos <span className="gradient-text bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">Serviços</span>
+              Nossos <span className="gradient-text bg-gradient-to-r from-white to-green-200 bg-clip-text text-transparent">Serviços</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-green-100 max-w-4xl mx-auto leading-relaxed">
               Oferecemos uma gama completa de serviços médicos para cuidar da saúde 
               de toda a sua família com excelência, segurança e humanização.
             </p>
@@ -254,7 +254,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-50 to-green-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -402,7 +402,7 @@ export default function Services() {
               Pronto para cuidar da sua saúde?
             </h2>
             
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
               Nossa equipe está preparada para oferecer o melhor atendimento médico. 
               Agende sua consulta e experimente nosso cuidado personalizado.
             </p>

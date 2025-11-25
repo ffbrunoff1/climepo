@@ -97,12 +97,12 @@ export default function HomePage() {
             
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               Cuidando da sua
-              <span className="block gradient-text bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+              <span className="block gradient-text bg-gradient-to-r from-white to-green-200 bg-clip-text text-transparent">
                 Saúde
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-green-100 max-w-3xl mx-auto">
               Na Climepo, oferecemos atendimento médico de excelência em clínica geral, 
               exames e ginecologia, sempre com foco no bem-estar dos nossos pacientes.
             </p>
@@ -136,9 +136,9 @@ export default function HomePage() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="flex items-center space-x-3"
               >
-                <Phone className="w-6 h-6 text-blue-200" />
+                <Phone className="w-6 h-6 text-green-200" />
                 <div className="text-left">
-                  <p className="text-blue-200 text-sm">Emergência</p>
+                  <p className="text-green-200 text-sm">Emergência</p>
                   <p className="font-semibold">(91) 3223-4567</p>
                 </div>
               </motion.div>
@@ -149,9 +149,9 @@ export default function HomePage() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="flex items-center space-x-3"
               >
-                <MapPin className="w-6 h-6 text-blue-200" />
+                <MapPin className="w-6 h-6 text-green-200" />
                 <div className="text-left">
-                  <p className="text-blue-200 text-sm">Localização</p>
+                  <p className="text-green-200 text-sm">Localização</p>
                   <p className="font-semibold">Belém, PA</p>
                 </div>
               </motion.div>
@@ -162,9 +162,9 @@ export default function HomePage() {
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="flex items-center space-x-3"
               >
-                <Clock className="w-6 h-6 text-blue-200" />
+                <Clock className="w-6 h-6 text-green-200" />
                 <div className="text-left">
-                  <p className="text-blue-200 text-sm">Funcionamento</p>
+                  <p className="text-green-200 text-sm">Funcionamento</p>
                   <p className="font-semibold">Seg-Sáb</p>
                 </div>
               </motion.div>
@@ -251,7 +251,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-50 to-green-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -362,7 +362,7 @@ export default function HomePage() {
               Pronto para cuidar da sua saúde?
             </h2>
             
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
               Agende sua consulta hoje mesmo e tenha acesso ao melhor atendimento 
               médico em Belém. Nossa equipe está pronta para cuidar de você!
             </p>

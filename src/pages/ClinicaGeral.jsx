@@ -122,10 +122,10 @@ export default function ClinicaGeral() {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Clínica <span className="gradient-text bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">Geral</span>
+              Clínica <span className="gradient-text bg-gradient-to-r from-white to-green-200 bg-clip-text text-transparent">Geral</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-green-100 max-w-4xl mx-auto leading-relaxed">
               Atendimento médico completo para toda a família, com foco na prevenção, 
               diagnóstico e tratamento de uma ampla gama de condições de saúde.
             </p>
@@ -179,7 +179,7 @@ export default function ClinicaGeral() {
       </section>
 
       {/* Condições Tratadas */}
-      <section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-50 to-green-50">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -261,7 +261,7 @@ export default function ClinicaGeral() {
       </section>
 
       {/* Depoimentos */}
-      <section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="section-padding bg-gradient-to-br from-gray-50 to-green-50">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -317,7 +317,7 @@ export default function ClinicaGeral() {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Agende sua consulta de Clínica Geral
             </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
               Dê o primeiro passo para um cuidado contínuo e completo da sua saúde. 
               Nossa equipe está pronta para te receber.
             </p>

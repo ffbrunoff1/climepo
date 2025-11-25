@@ -67,7 +67,7 @@ export default function Footer() {
             className="space-y-6"
           >
             <Logo />
-            <p className="text-blue-200 leading-relaxed">
+            <p className="text-green-200 leading-relaxed">
               Há mais de 15 anos cuidando da saúde das famílias de Belém. 
               Oferecemos atendimento médico de qualidade com profissionais 
               qualificados e tecnologia moderna.
@@ -101,7 +101,7 @@ export default function Footer() {
                   <li key={servico.name}>
                     <Link
                       to={servico.href}
-                      className="flex items-center space-x-3 text-blue-200 hover:text-white transition-colors duration-300 group"
+                      className="flex items-center space-x-3 text-green-200 hover:text-white transition-colors duration-300 group"
                     >
                       <IconComponent className="w-4 h-4 group-hover:scale-110 transition-transform" />
                       <span className="group-hover:translate-x-1 transition-transform">
@@ -130,7 +130,7 @@ export default function Footer() {
                   <li key={info.name}>
                     <Link
                       to={info.href}
-                      className="flex items-center space-x-3 text-blue-200 hover:text-white transition-colors duration-300 group"
+                      className="flex items-center space-x-3 text-green-200 hover:text-white transition-colors duration-300 group"
                     >
                       <IconComponent className="w-4 h-4 group-hover:scale-110 transition-transform" />
                       <span className="group-hover:translate-x-1 transition-transform">
@@ -159,7 +159,7 @@ export default function Footer() {
                   <li key={index}>
                     <a
                       href={contato.link}
-                      className="flex items-center space-x-3 text-blue-200 hover:text-white transition-colors duration-300 group"
+                      className="flex items-center space-x-3 text-green-200 hover:text-white transition-colors duration-300 group"
                     >
                       <IconComponent className="w-4 h-4 group-hover:scale-110 transition-transform" />
                       <span className="group-hover:translate-x-1 transition-transform">
@@ -202,7 +202,7 @@ export default function Footer() {
           className="border-t border-blue-600 mt-12 pt-8"
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="flex items-center space-x-6 text-sm text-blue-200">
+            <div className="flex items-center space-x-6 text-sm text-green-200">
               <p>&copy; {currentYear} Climepo. Todos os direitos reservados.</p>
               <a 
                 href="https://papum.ai" 
@@ -214,7 +214,7 @@ export default function Footer() {
               </a>
             </div>
             
-            <div className="flex items-center space-x-6 text-sm text-blue-200">
+            <div className="flex items-center space-x-6 text-sm text-green-200">
               <Link to="/privacidade" className="hover:text-white transition-colors">
                 Política de Privacidade
               </Link>
