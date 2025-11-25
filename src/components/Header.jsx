@@ -1,53 +1,53 @@
-import React, { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
-import { motion } from 'framer-motion'
-import { Menu, X, Phone, MapPin, Clock, Heart, Stethoscope, Activity } from 'lucide-react'
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { Menu, X, Phone, MapPin, Clock, Heart, Stethoscope, Activity } from 'lucide-react';
+
+const navItems = [
+  { name: 'Início', href: '/' },
+  { name: 'Sobre', href: '/sobre' },
+  {
+    name: 'Serviços',
+    href: '/servicos',
+    submenu: [
+      { name: 'Clínica Geral', href: '/clinica-geral' },
+      { name: 'Exames Médicos', href: '/exames' },
+      { name: 'Ginecologia', href: '/ginecologia' }
+    ]
+  },
+  { name: 'Contato', href: '/contato' }
+];
+
+const Logo = () => (
+  <motion.div
+    whileHover={{ scale: 1.05 }}
+    className="flex items-center space-x-3"
+  >
+    <div className="relative">
+      <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-r from-primary-500 to-primary-600 rounded-xl shadow-lg">
+        <Heart className="w-6 h-6 text-white" />
+      </div>
+      <Activity className="absolute -top-1 -right-1 w-4 h-4 text-accent-500" />
+    </div>
+    <div>
+      <h1 className="text-2xl font-bold gradient-text">Climepo</h1>
+      <p className="text-xs text-gray-500 -mt-1">Cuidando da sua saúde</p>
+    </div>
+  </motion.div>
+);
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
-  const location = useLocation()
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
-  const Logo = () => (
-    <motion.div
-      whileHover={{ scale: 1.05 }}
-      className="flex items-center space-x-3"
-    >
-      <div className="relative">
-        <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-r from-primary-500 to-primary-600 rounded-xl shadow-lg">
-          <Heart className="w-6 h-6 text-white" />
-        </div>
-        <Activity className="absolute -top-1 -right-1 w-4 h-4 text-accent-500" />
-      </div>
-      <div>
-        <h1 className="text-2xl font-bold gradient-text">Climepo</h1>
-        <p className="text-xs text-gray-500 -mt-1">Cuidando da sua saúde</p>
-      </div>
-    </motion.div>
-  )
-
-  const navItems = [
-    { name: 'Início', href: '/' },
-    { name: 'Sobre', href: '/sobre' },
-    { 
-      name: 'Serviços', 
-      href: '/servicos',
-      submenu: [
-        { name: 'Clínica Geral', href: '/clinica-geral' },
-        { name: 'Exames Médicos', href: '/exames' },
-        { name: 'Ginecologia', href: '/ginecologia' }
-      ]
-    },
-    { name: 'Contato', href: '/contato' }
-  ]
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <>
