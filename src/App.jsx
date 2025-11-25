@@ -8,7 +8,7 @@ import About from './pages/About'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
 import ClinicaGeral from './pages/ClinicaGeral'
-import Ginecologia from './pages/Ginecologia'
+
 
 export default function App() {
   return (
@@ -27,7 +27,7 @@ export default function App() {
           <Route path="/contato" element={<Contact />} />
           <Route path="/clinica-geral" element={<ClinicaGeral />} />
           <Route path="/exames" element={<Services />} />
-          <Route path="/ginecologia" element={<Ginecologia />} />
+          <Route path="/ginecologia" element={<Services />} />
         </Routes>
       </motion.main>
 
